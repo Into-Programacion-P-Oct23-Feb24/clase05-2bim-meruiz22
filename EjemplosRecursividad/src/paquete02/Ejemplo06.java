@@ -22,8 +22,12 @@ public class Ejemplo06 {
         }
         
         for (int i = 0; i < valor1.length; i++) {
+            // Utilizamos el ciclo repetitivo para ir recorriendo los arreglos 
             int num1 = valor1[i];
             int num2 = valor2[i];
+            /* Declaramos variables para que asuman el valor de los arreglos de 
+            
+            */
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(num1, num2));
         }
@@ -32,6 +36,10 @@ public class Ejemplo06 {
             int num1 = valor1[i];
             int num2 = valor2[i];
             int suma = obtenerSuma(num1, num2); 
+            /* Declaramos variables para que asuman el valor de los arreglos y 
+            otra para que asuma el valor del de la funcion obtener suma 
+            
+            */
             System.out.printf("El valor es: %d\n", suma);
         }
         
